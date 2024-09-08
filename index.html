@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/logo.png" class="logo" alt="Netflix Logo">
+            <div>
+                <button class="language-btn">English <img src="images/down-icon.png" alt="Dropdown Icon"></button>
+                <button>Sign In</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-signup">
+              <input type="email" placeholder="Email address" required>
+              <button type="submit">Get Started</button>
+            </form>
+        </div>  
+    </div>
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy your TV.</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="img-col">
+              <img src="images/feature-1.png" alt="Feature 1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="images/feature-2.png" alt="Feature 2">
+            </div>
+            <div class="text-col">
+                <h2>Download your shows to watch offline.</h2>
+                <p>Save your favorites easily and always have something to watch.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-col">
+                <h2>Watch everywhere</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="img-col">
+              <img src="images/feature-3.png" alt="Feature 3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="images/feature-4.png" alt="Feature 4">
+            </div>
+            <div class="text-col">
+                <h2>Create profiles for children.</h2>
+                <p>Send children on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+            </div>
+        </div>
+    </div>
+    <div class="faq">
+        <h2>Frequently Asked Questions.</h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordion" id="first" aria-expanded="false">
+                <label for="first">What is Netflix?</label>
+                <div class="content">
+                    <p>Netflix is a streaming service that offers a wide variety of TV shows, movies, documentaries, and original content across multiple genres. Subscribers can watch content on-demand without commercials, and it is available on various devices like smartphones, tablets, smart TVs, and computers. Founded in 1997, Netflix originally started as a DVD rental service before transitioning to online streaming.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second" aria-expanded="false">
+                <label for="second">How much does Netflix cost?</label>
+                <div class="content">
+                    <p>Here’s a price description you can use for Netflix in Indian Rupees:
+
+                        "Netflix offers a range of subscription plans tailored to suit different viewing preferences in India:
+                        
+                        1. Mobile Plan: Priced at ₹149 per month, this plan allows streaming on a mobile or tablet device with standard 480p resolution.
+                           
+                        2. Basic Plan: Available at ₹199 per month, it lets users stream content on one device at a time in 480p resolution.
+                           
+                        3. Standard Plan: For ₹499 per month, this plan supports streaming on two devices simultaneously in 1080p (Full HD) resolution.
+                           
+                        4. Premium Plan: At ₹649 per month, it offers 4K UHD + HDR quality and streaming on up to four devices simultaneously.
+                        
+                        All plans provide access to Netflix's full library of movies, TV shows, and original content, ensuring entertainment for every taste."</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third" aria-expanded="false">
+                <label for="third">Where can I watch?</label>
+                <div class="content">
+                    <p>You can watch Netflix on a wide range of devices, offering flexibility in how and where you enjoy its content:
+
+                        1. Smartphones and Tablets: Available via the Netflix app on both Android and iOS devices.
+                        2. Smart TVs: Most smart TVs come with the Netflix app pre-installed or available for download.
+                        3. Laptops and PCs: Watch Netflix directly on your browser (Chrome, Firefox, Edge, Safari) at [netflix.com](http://www.netflix.com).
+                        4. Streaming Devices: Devices like Amazon Fire Stick, Google Chromecast, and Apple TV support Netflix.
+                        5. Gaming Consoles: PlayStation and Xbox consoles also have Netflix apps available for streaming.
+                        6. Set-top Boxes: Many cable boxes and media players support Netflix as well.
+                        
+                        This versatility allows you to enjoy Netflix wherever you have an internet connection.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth" aria-expanded="false">
+                <label for="fourth">How do I cancel?</label>
+                <div class="content">
+                    <p>To cancel your Netflix subscription, follow these steps:
+
+                        1. Log in to your Netflix account on a browser or through the app.
+                        2. Go to Account Settings: Click on your profile icon (top-right corner) and select "Account" from the dropdown menu.
+                        3. Cancel Membership: Under the "Membership & Billing" section, you’ll see a "Cancel Membership" button. Click on it.
+                        4. Confirm Cancellation: Follow the prompts to confirm your cancellation. Your account will remain active until the end of your current billing period.
+                        
+                        You can always rejoin Netflix anytime, and your viewing history will be saved for a limited time after cancellation.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fifth" aria-expanded="false">
+                <label for="fifth">What can I watch on Netflix?</label>
+                <div class="content">
+                    <p>Netflix offers a wide variety of content, including movies, TV shows, and original series like *Stranger Things* and *Money Heist*. You can also enjoy documentaries, anime, and stand-up comedy specials. The platform features content for all ages, including family-friendly options, ensuring there's something for everyone.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="sixth" aria-expanded="false">
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>Yes, Netflix is good for kids. It offers a wide range of family-friendly content, including animated series, educational shows, and movies suitable for various age groups. The platform has a dedicated Kids profile that provides age-appropriate recommendations and features parental controls, allowing you to restrict content based on ratings and set viewing limits. This ensures a safe and enjoyable viewing experience for children.</p>
+                </div>
+            </li>
+        </ul>
+        <small>
+            Ready to watch? Enter your email to create or restart your membership.
+        </small>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Get Started</button>
+          </form>
+    </div>
+    <div class="footer">
+        <h2>
+            Questions?call 93908-75279
+        </h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Invester Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center </a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookies Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="language-btn">English <img src="images/down-icon.png" alt="Dropdown Icon"></button>
+        <p class ="copyright-txt">Netflix India</p>
+    </div>
+</body>
+</html>
